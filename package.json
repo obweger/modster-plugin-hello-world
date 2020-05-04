@@ -1,0 +1,7 @@
+{
+    "name": "modster-plugin-hello-world",
+    "version": "0.0.1",
+    "description": "A very simple plugin for Modster",
+    "main": "src/index.js",
+    "keywords": ["modster", "modster-plugin"]
+}
