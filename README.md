@@ -10,7 +10,7 @@ A very simple plugin for [Modster](https://github.com/obweger/modster). Take you
 npm install modster-plugin-hello-world
 ```
 
-In your .codemods.js:
+In your `.codemods.js`:
 
 ```js
 module.exports = {
