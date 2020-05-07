@@ -12,12 +12,12 @@ npm install modster-plugin-hello-world
 
 In your `.codemods.js`:
 
-```js
+```diff
 module.exports = {
     // ...
     plugins: [
         // ...
-        'hello-world'
++      'hello-world'
     ]
 }
 ```
