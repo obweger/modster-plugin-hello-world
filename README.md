@@ -26,4 +26,22 @@ module.exports = {
 
 ### Rename variables
 
-Renames all variables of name `--from` to `--to`. Take this as a starting point for your own Modster plugins and codemods!
+Renames all variables of name `--from` to `--to`.
+
+With `--from=foo` and `--to=bar`:
+
+```diff
+-   const foo = 'bar';
++   const bar = 'bar';   
+```
+
+### Change import source
+
+Changes all import statement with source `--from` to `--to`. 
+
+With `--from=foo` and `--to=bar`:
+
+```diff
+-   import bar from 'foo';
++   import bar from 'bar';   
+```
