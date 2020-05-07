@@ -10,14 +10,14 @@ A very simple plugin for [Modster](https://github.com/obweger/modster). Take you
 npm install modster-plugin-hello-world
 ```
 
-In your .codemods.js:
+In your `.codemods.js`:
 
-```js
+```diff
 module.exports = {
     // ...
     plugins: [
         // ...
-        'hello-world'
++      'hello-world'
     ]
 }
 ```
@@ -45,3 +45,4 @@ With `--from=foo` and `--to=bar`:
 -   import bar from 'foo';
 +   import bar from 'bar';   
 ```
+Renames all variables of name `--from` to `--to`. Take this as a starting point for your own Modster plugins and codemods!
