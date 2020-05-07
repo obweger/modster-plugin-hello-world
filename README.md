@@ -45,4 +45,3 @@ With `--from=foo` and `--to=bar`:
 -   import bar from 'foo';
 +   import bar from 'bar';   
 ```
-Renames all variables of name `--from` to `--to`. Take this as a starting point for your own Modster plugins and codemods!
